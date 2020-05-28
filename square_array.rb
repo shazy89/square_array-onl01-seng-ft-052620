@@ -1,9 +1,9 @@
 def square_array(array)
   # your code here	  # your code here
-  array2 = []
+  m_array = []
 array.each do |i|
     array2 << i ** 2 
   end 
 
-  array2
+  m_array
 end 	
