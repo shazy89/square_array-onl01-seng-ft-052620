@@ -1,5 +1,10 @@
 def square_array(array)
-  # your code here	  new_array = []
-  array.each { |n| new_array << (n * n) }
-  new_array
-end 	end 
+  # your code here	  # your code here
+  array2 = []
+
+  array.each do |element|
+    array2 << element ** 2 
+  end 
+
+  array2
+end 	
